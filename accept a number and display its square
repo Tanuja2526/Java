@@ -1,0 +1,11 @@
+import java.util.*;
+public class Square {
+	public static void main(String[] args) {
+		int i,res;
+		Scanner sc=new Scanner(System.in);
+        System.out.println("\n Enter a number:");
+        i=sc.nextInt();
+        res=i*i;
+        System.out.println("The square="+res);
+	}
+}
